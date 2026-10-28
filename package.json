@@ -1,0 +1,11 @@
+{
+  "name": "solrepay-measure-probes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/features/reclaim/measure/measure.test.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "1.98.4"
+  }
+}
